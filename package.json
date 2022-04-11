@@ -1,7 +1,7 @@
 {
-  "name": "worker-typescript-template",
+  "name": "get-info-cloudflare-worker",
   "version": "1.0.0",
-  "description": "Cloudflare worker TypeScript template",
+  "description": "Worker that gets the headers from the response to a request",
   "main": "dist/worker.js",
   "scripts": {
     "build": "webpack",
@@ -10,7 +10,7 @@
     "test": "jest --config jestconfig.json --verbose"
   },
   "author": "author",
-  "license": "MIT OR Apache-2.0",
+  "license": "Copyright",
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -35,5 +35,8 @@
     "typescript": "^4.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "serialize-error": "^9.1.1"
   }
 }
